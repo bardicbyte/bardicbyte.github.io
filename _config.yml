@@ -8,18 +8,6 @@ author: Alvee Ahnaf Mir
 baseurl: ""
 url: "https://bardicbyte.github.io"
 
-# Build settings
-markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Site settings
-show_excerpts: true
-header_pages:
-  - about.md
-  - projects.md
-
 # Minima theme settings
 minima:
   date_format: "%b %-d, %Y"
