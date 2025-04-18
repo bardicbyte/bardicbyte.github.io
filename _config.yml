@@ -1,4 +1,28 @@
-Alvee Ahnaf Mir
-description
-GitHub username
-Optionally add your email and Twitter username (these will be public)
+title: Alvee Ahnaf Mir
+description: Software Engineer | Master's Student at UQ | Full Stack Developer
+theme: minima
+github_username: bardicbyte
+linkedin_username: alvee-mir-b11322208
+email: alveaahnaf25@gmail.com
+author: Alvee Ahnaf Mir
+baseurl: ""
+url: "https://bardicbyte.github.io"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Site settings
+show_excerpts: true
+header_pages:
+  - about.md
+  - projects.md
+
+# Minima theme settings
+minima:
+  date_format: "%b %-d, %Y"
+  social_links:
+    github: bardicbyte
+    linkedin: alvee-mir-b11322208
