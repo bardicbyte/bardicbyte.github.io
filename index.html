@@ -1,10 +1,10 @@
 ---
-layout: home
+layout: page
+title: false
 ---
 
 <div class="hero">
   <div class="hero-content">
-    <h1 class="hero-title">Alvee Ahnaf Mir</h1>
     <p class="hero-subtitle">Software Engineer | Master's Student at UQ | Full Stack Developer</p>
   </div>
 </div>
@@ -90,20 +90,18 @@ layout: home
 <style>
 .hero {
   text-align: center;
-  padding: 4rem 1rem;
+  padding: 2rem 1rem;
   background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
   color: white;
   margin-bottom: 2rem;
-}
-
-.hero-title {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+  border-radius: 8px;
 }
 
 .hero-subtitle {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   opacity: 0.9;
+  margin: 0;
+  font-weight: 500;
 }
 
 .about-section, .education-section, .experience-section, .projects-section {
@@ -182,14 +180,6 @@ layout: home
 }
 
 @media (max-width: 768px) {
-  .hero-title {
-    font-size: 2rem;
-  }
-  
-  .hero-subtitle {
-    font-size: 1rem;
-  }
-  
   .timeline {
     padding-left: 1.5rem;
   }
