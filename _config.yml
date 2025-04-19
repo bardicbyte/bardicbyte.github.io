@@ -1,49 +1,9 @@
 title: Alvee Ahnaf Mir
 description: Software Engineer | Master's Student at UQ | Full Stack Developer
-theme: jekyll-theme-chirpy
+theme: minima
 github_username: bardicbyte
 linkedin_username: alvee-mir-b11322208
 email: alveaahnaf25@gmail.com
 baseurl: ""
 url: "https://bardicbyte.github.io"
-
-# Chirpy theme specific settings
-lang: en
-timezone: Australia/Brisbane
-avatar: /assets/img/avatar.jpg
-favicon: /assets/img/favicon.ico
-seo:
-  type: Person
-  name: Alvee Ahnaf Mir
-  links:
-    - https://github.com/bardicbyte
-    - https://www.linkedin.com/in/alvee-mir-b11322208
-    - mailto:alveaahnaf25@gmail.com
-
-# Social media
-social:
-  name: Alvee Ahnaf Mir
-  email: alveaahnaf25@gmail.com
-  links:
-    - title: GitHub
-      icon: "fab fa-github"
-      url: "https://github.com/bardicbyte"
-    - title: LinkedIn
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/alvee-mir-b11322208"
-    - title: Email
-      icon: "fas fa-envelope"
-      url: "mailto:alveaahnaf25@gmail.com"
-
-# Theme settings
-theme_mode:
-  light: true
-  dark: true
-  toggle: true
-
-# Analytics
-analytics:
-  provider: google
-  google:
-    tracking_id: # Add your Google Analytics ID here if you want to use it
 
