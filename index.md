@@ -4,15 +4,18 @@
   <img src="assets/images/alvee.jpg" alt="Alvee Ahnaf Mir" class="profile-image">
 </div>
 
-## About Me
+# About Me
 I am a Software Engineer based in Brisbane, Australia, currently pursuing my Master's in Software Engineering at The University of Queensland. With experience in full-stack development, cloud architecture, and machine learning, I specialize in building scalable systems and innovative solutions.
 
 <div class="social-links">
-  [GitHub](https://github.com/bardicbyte) | [LinkedIn](https://in/alvee-mir-b11322208) | [Email](mailto:alveaahnaf25@gmail.com) | [Blog](/blog)
+  <a href="https://github.com/bardicbyte">GitHub</a>
+  <a href="https://in/alvee-mir-b11322208">LinkedIn</a>
+  <a href="mailto:alveaahnaf25@gmail.com">Email</a>
+  <a href="/blog">Blog</a>
 </div>
 
 <section>
-## Education
+# Education
 
 <div class="education-card">
   <img src="assets/images/UQ.png" alt="The University of Queensland" class="card-logo">
@@ -32,7 +35,7 @@ I am a Software Engineer based in Brisbane, Australia, currently pursuing my Mas
 </section>
 
 <section>
-## Experience
+# Experience
 
 <div class="experience-card">
   <img src="assets/images/solarisAI.png" alt="SolarisAI" class="card-logo">
@@ -86,7 +89,7 @@ I am a Software Engineer based in Brisbane, Australia, currently pursuing my Mas
 </section>
 
 <section>
-## Projects
+# Projects
 
 <div class="project-card">
   <h3>BCI-VR Based Rehabilitation System</h3>
