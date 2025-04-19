@@ -1,21 +1,34 @@
 ---
-layout: page
+layout: blog
 title: Blog
 permalink: /blog/
 ---
 
-# Blog Posts
+<div class="blog-header">
+  <h1>Blog Posts</h1>
+  <p>Here I share my learnings and insights from various courses and projects, particularly focusing on my journey through the Fast AI course and software engineering best practices.</p>
+</div>
 
-Here I share my learnings and insights from various courses and projects, particularly focusing on my journey through the Fast AI course.
-
-<ul class="post-list">
+<div class="blog-posts">
   {% for post in site.posts %}
-    <li>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <h2>
-        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <article class="blog-post-card">
+      <div class="post-meta">
+        <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+        {% if post.categories %}
+          <div class="post-categories">
+            {% for category in post.categories %}
+              <span class="category-tag">{{ category }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+      <h2 class="post-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </h2>
-      {{ post.excerpt }}
-    </li>
+      <div class="post-excerpt">
+        {{ post.excerpt | strip_html | truncatewords: 50 }}
+      </div>
+      <a href="{{ post.url | relative_url }}" class="read-more">Read More →</a>
+    </article>
   {% endfor %}
-</ul> 
+</div> 

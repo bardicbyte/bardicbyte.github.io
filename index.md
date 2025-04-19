@@ -1,4 +1,3 @@
-# Alvee Ahnaf Mir
 
 <div class="profile-container">
   <img src="assets/images/alvee.jpg" alt="Alvee Ahnaf Mir" class="profile-image">
