@@ -1,9 +1,37 @@
+title: Alvee Ahnaf Mir
+description: Software Engineer | Cloud Architect | Machine Learning Enthusiast
+theme: jekyll-theme-minimal
 
-description: Software Engineer | Master's Student at UQ | Full Stack Developer
-theme: minima
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git/
+  
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      
+# Custom settings
+google_analytics: # your Google Analytics tracking ID here
+
+# Social links
 github_username: bardicbyte
 linkedin_username: alvee-mir-b11322208
-email: alveaahnaf25@gmail.com
-baseurl: ""
-url: "https://bardicbyte.github.io"
+
+# Assets
+sass:
+  style: compressed
 
